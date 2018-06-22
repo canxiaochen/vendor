@@ -1,0 +1,22 @@
+{
+    "name": "canxiaochen/ali-cs",
+    "description": "This a demo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhangsixuan",
+            "email": "zhangsixuan@donews.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Alics\\": "src"
+
+        }
+    }
+}
