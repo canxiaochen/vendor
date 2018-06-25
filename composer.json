@@ -5,8 +5,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "zhangsixuan",
-            "email": "zhangsixuan@donews.com"
+            "name": "canxianchen",
+            "email": "canxianchen@gmail.com"
         }
     ],
     "minimum-stability": "dev",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Alics\\": "src"
+            "canxianchen\\AliCS\\": "src/"
 
         }
     }

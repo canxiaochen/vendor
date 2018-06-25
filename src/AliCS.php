@@ -1,5 +1,5 @@
 <?php
-namespace Alics;
+namespace canxianchen\AliCS;
 /**
  * Created by PhpStorm.
  * User: Administrator
@@ -32,8 +32,6 @@ class AliCS
         $this->imageSyncScanrequest = new Green\ImageSyncScanRequest();
         $this->imageSyncScanrequest->setMethod("POST");
         $this->imageSyncScanrequest->setAcceptFormat("JSON");
-//        $filename = DISCUZ_ROOT.'data/log/safe.log';
-//        file_put_contents($filename,'check_img:参数'.'alics实例化'.PHP_EOL,FILE_APPEND);
     }
     private function getClient()
     {
